@@ -73,10 +73,10 @@
           <a href="mailto:abi.rahim.sheikh@gmail.com">abi.rahim.sheikh@gmail.com</a>
         </div>
         <p class="lead mb-5">I am a B.Sc. graduate in Computer Science & Engineering
-          from the University of Rajshahi. I have a passion for problem-solving and
-          competitive programming, artificial intelligence. Currently, I am working in
-          the field of Artificial Intelligence, particularly in Data Wrangling
-          and Model Building.</p>
+          from the University of Rajshahi. I have a passion for problem-solving,
+          competitive programming and artificial intelligence. Currently, I am working in
+          the field of Software Engineering, particularly in web-Application building 
+          with respect to AI.</p>
         <div class="social-icons">
           <a href="https://www.linkedin.com/in/abdur-rahim-sheikh-168398172/" target="_blank">
             <i class="fab fa-linkedin-in"></i>
@@ -156,13 +156,15 @@
                   href="https://codeforces.com/profile/ABIR" target="_blank">ABIR</a></li>
               <li><strong>Vjudge</strong>: Practiced and successfully solved <b>379 problems</b>. User: <a
                   href="https://vjudge.net/user/MD_ABIR" target="_blank">MD_ABIR</a>.</li>
-              <li><strong>LightOj</strong>: Solved <b>173 problems</b>, this problems helped me to learn different
+              <li><strong>LightOj</strong>: Solved <b>184 problems</b>, this problems helped me to learn different
                 algorithm and their power in worst cases. User: <a href="https://lightoj.com/user/abi.rahim.sheikh"
                   target="_blank">Abdur Rahim Sheikh</a>.</li>
               <li><strong>UVA</strong>: Completed <b>76 problems</b>, these problems helped me to find out real problem
                 from context. User: <a href="https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=15"
                   target="_blank">MD_ABIR</a>.</li>
             </ul>
+            Also, I have participated and solved problems from other online judges like Spoj, At-Coder, Codechef, Hackerrank etc.
+
           </div>
         </div>
       </div>
@@ -176,15 +178,10 @@
           <div class="resume-content">
             <h3 class="mb-0">My Medical Hub International</h3>
             <div class="subheading mb-3">Associate Software Engineer</div>
-            <p>Responsibilities included Data Wrangling, Model Building, and creating customized AI models for customer
-              support.
-            <ul>
-              <li>Python</li>
-              <li>LangChain</li>
-              <li>Streamlit</li>
-              <li>Django</li>
-            </ul>
-            </p>
+            At My Medical Hub International, I played a key role in the development of healthcare IT services, focusing on data management, AI-driven customer support, and medical assistance. Highlights of my tenure include:
+
+            <b>Emma Web-Application Development</b>: Utilized Django, Python, SQL, and JavaScript to build and maintain a patient database, enabling efficient data handling and report generation.<br>
+            <b>HSiPu2 paper customization</b>: Customized an existing paper for a new dataset, achieving 97% accuracy by enhancing the dataset using optical flow.   
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">August 2023 - Current</span>
@@ -198,11 +195,16 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
       <div class="w-100">
         <h2 class="mb-5">Projects</h2>
+        <a class="nav-link js-scroll-trigger" href="#emma-chat-gpt" style="display:inline;">Emma web-Application</a>,
+        <a class="nav-link js-scroll-trigger" href="#hsipu-paper-customization" style="display:inline;">HSiPu2 Paper Customization</a>,
+        <a class="nav-link js-scroll-trigger" href="#musculoskeletal-radiograph" style="display:inline;">Musculoskeletal Radiograph</a>,
+         
+        
         <!-- Project 1: Emma-chat-gpt -->
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5" id="emma-chat-gpt">
           <div class="resume-content">
             <h3 class="mb-0">Emma web-Application</h3>
-            <div class="subheading mb-3">Tech Stack: DJango, Python, JavaScript, pyodbc, poetry</div>
+            <div class="subheading mb-3">Tech Stack: DJango, Python, Sql, JavaScript, poetry, DBeaver, Pycharm</div>
 
             <div class="subheading mb-3">Service 1: Patient database handling</div>
             <p>Developed a service to handle patient data. The application can be used to do CRUD
@@ -214,15 +216,24 @@
               And if they face issue this ai support will help them out.
             </p>
             <p>I pulled it of using langchain framework which lets us embed data in various category.
-              So I collected and prepared my data in one of specified structure from langchain.
-              Then I built my embedding vector and passed it to an llm to generate a response.</p>
-            <div class="subheading mb-3">Service 3: writing soon....</div>
+              So I <u>collected</u> and <u>prepared</u> my data in one of specified structure from langchain.
+              Then I built <u>script</u> for my embedding vector and passed it to an LLM to generate a response.</p>
+            <div class="subheading mb-3">Service 3: Ask medical help to AI</div>
+            <p>
+              MyMedicalHub has clinical team of doctors they tailroed a set of question for customer to answer.
+              Based on their answer backend-team graded them and built meaningfull sentence on supervision of
+              clinical team.
+
+              After that my job heavily depends on database handling where I filtered out all irrelevant data 
+              for a custom medical help question asked by the customer. Then used the filtered story to feed Emma-chat-gpt
+              and asked to generate a response.
+            </p>
             <div class="subheading mb-2"> <a href="https://emma-gpt.injurycloud.com/">application url</a></div>
           </div>
         </div>
 
         <!-- Project 2: HSiPu2 Paper Customization -->
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5" id="hsipu-paper-customization">
           <div class="resume-content">
             <h3 class="mb-0">HSiPu2 Paper Customization</h3>
             <div class="subheading mb-3">Tech Stack: Python, Optical-Flow, Tensorflow</div>
@@ -236,7 +247,7 @@
         </div>
 
         <!-- Project 3: Musculoskeletal Radiograph -->
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5" id="musculoskeletal-radiograph">
           <div class="resume-content">
             <h3 class="mb-0">Musculoskeletal Radiograph</h3>
             <div class="subheading mb-3">Tech Stack: Python, Django, Tensorflow, HTML, CSS</div>
@@ -364,7 +375,7 @@
 
         <h4 class="mb-2">Tools:</h4>
         <ul>
-          <li>Git,SQL, PostMan, etc </li>
+          <li>Azure, Git, SQL, PostMan, Pycharm, VsCode etc </li>
         </ul>
 
         <p>
